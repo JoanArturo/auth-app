@@ -36,7 +36,7 @@ export class LoginComponent {
   private handleResponse(response: any): void {
     console.log(response.message);
     this.tokenService.handleToken(response.token);
-    // TODO: Redirect to dashboard
+    this.router.navigateByUrl('/dashboard');
   }
 
   private handleErrors(errors: any): void {
