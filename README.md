@@ -1,27 +1,42 @@
-# AuthApp
+# Auth APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+El actual proyecto dispone de los componentes necesarios para registrar y autenticar usuarios de manera rápida y eficiente. La lógica de autenticación y registro implementada es sencilla, lo que te permitirá ajustar fácilmente la funcionalidad para adaptarla a las necesidades específicas de tu proyecto, en caso de requerir validaciones adicionales o más complejas.
 
-## Development server
+El proyecto puede ejecutarse sin problemas; sin embargo, es de suma importancia contar con un backend capaz de recibir las solicitudes HTTP generadas desde el frontend. Por esta razón, recomiendo clonar el proyecto [Auth Laravel API](https://github.com/JoanArturo/auth-laravel-api). Este proyecto está desarrollado con Laravel 10 y cuenta con los endpoints necesarios para garantizar un funcionamiento adecuado con el proyecto actual de Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pre-requisitos 📋
 
-## Code scaffolding
+Para la correcta ejecución de este proyecto, necesitas tener las siguientes tecnologías instaladas en tu ordenador.
+* npm 9.6.7
+* Angular CLI 16.2.11
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**IMPORTANTE: Es indispensable tener clonado y en ejecución el proyecto [Auth Laravel API](https://github.com/JoanArturo/auth-laravel-api)**
 
-## Build
+## Instalación 🔧
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona este proyecto.
+```bash
+git clone https://github.com/JoanArturo/auth-app.git
+```
 
-## Running unit tests
+2. Instala las dependencias de node con npm.
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Ejecuta el proyecto Angular en modo desarrollo y navega a `http://localhost:4200/`.
+```bash
+ng serve
+```
 
-## Running end-to-end tests
+4. Ejecuta el proyecto backend `Auth Laravel API` realizado con Laravel para que la aplicación Angular consuma los endpoints, si aún no lo tienes puedes clonarlo desde el [repositorio Auth Laravel API](https://github.com/JoanArturo/auth-laravel-api).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Construido con 🛠️
 
-## Further help
+- [npm 9.6.7](https://www.npmjs.com/package/npm/v/9.6.7)
+- [Angular CLI 16.2.11](https://angular.io/docs)
+- [Bootstrap 5.3.2](https://getbootstrap.com/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Autor 🖋️
+
+- [@JoanArturo](https://github.com/JoanArturo)
